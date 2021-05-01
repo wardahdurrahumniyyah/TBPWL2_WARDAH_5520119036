@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Laporan Barang Masuk')
+@section('title', 'Laporan Barang Keluar')
 
 @section('content_header')
-    <h1>Laporan Pengelolaan Barang Masuk</h1>
+    <h1>Laporan Pengelolaan Barang Keluar</h1>
 @stop
 
 @section('content')
@@ -21,10 +21,10 @@
 <div class="col">
   <div class="card">
     <div class="card-header">
-      <h4 class="card-title">Laporan Pengelolan Barang Masuk</h4>
+      <h4 class="card-title">Laporan Pengelolan Barang Keluar</h4>
       <div class="card-tools">
          
-          <a href="{{route('admin.PrintPdf')}}" class="btn btn-sm btn-success">
+          <a href="{{route('admin.PrintPdfout')}}" class="btn btn-sm btn-success">
             Print PDF
            </a>   
       

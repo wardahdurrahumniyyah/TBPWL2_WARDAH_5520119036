@@ -119,8 +119,16 @@ Route::get('admin/Laporan', [AdminController::class, 'Laporan'])
     ->name('admin.Laporan')
     ->middleware();
 
+Route::get('admin/Laporanout', [AdminController::class, 'Laporanout'])
+    ->name('admin.Laporanout')
+    ->middleware();
+
 Route::get('admin/PrintPdf', [AdminController::class, 'Print'])
     ->name('admin.PrintPdf')
+    ->middleware(); 
+
+Route::get('admin/PrintPdfout', [AdminController::class, 'produk_pdfout'])
+    ->name('admin.PrintPdfout')
     ->middleware();
 
 

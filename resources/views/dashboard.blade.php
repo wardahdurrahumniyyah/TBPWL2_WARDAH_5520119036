@@ -14,9 +14,9 @@
         <!-- small box -->
         <div class="small-box bg-info">
           <div class="inner">
-            <h3>3</h3>
+            <h3>2</h3>
 
-            <p>Pengelolaan Barang</p>
+            <p>User</p>
           </div>
           <div class="icon">
             <i class="ion ion-bag"></i>
@@ -29,9 +29,9 @@
         <!-- small box -->
         <div class="small-box bg-success">
           <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
+            <h3>2</h3>
 
-            <p>Kategori</p>
+            <p>Pengelolaan Barang</p>
           </div>
           <div class="icon">
             <i class="ion ion-stats-bars"></i>
@@ -46,7 +46,7 @@
           <div class="inner">
             <h3>2</h3>
 
-            <p>Merek</p>
+            <p>Kategori</p>
           </div>
           <div class="icon">
             <i class="ion ion-person-add"></i>
@@ -57,11 +57,11 @@
       <!-- ./col -->
       <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box bg-danger">
+        <div class="small-box bg-success">
           <div class="inner">
             <h3>2</h3>
 
-            <p>User</p>
+            <p>Merek</p>
           </div>
           <div class="icon">
             <i class="ion ion-pie-graph"></i>

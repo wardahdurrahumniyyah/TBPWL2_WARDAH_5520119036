@@ -277,7 +277,7 @@ return [
                                 ],
                                 [
                                     'text'        => 'Laporan Barang Keluar',
-                                    'url'         => 'admin/laporan/keluar',
+                                    'url'         => 'admin/Laporanout',
                                 ],
                             ]
         ],

@@ -307,8 +307,18 @@ public function print()
     $pdf = PDF::loadview('produk_pdf',['Produk'=>$Produk]);
     return $pdf->stream('laporan-Produk-pdf.pdf');
 }
+public function produk_pdfout()
+{
+    $Produk = Product::all();
 
-
+    $pdf = PDF::loadview('produk_pdfout',['Produk'=>$Produk]);
+    return $pdf->stream('laporan-Produk-pdf.pdf');
+}
+// LaporanKeluar
+public function Laporanout(){
+    $produk = Product::all();
+    return view ('Laporanout', compact('produk'));
+}
 
 
 //     public function submit_product(Request $req)
