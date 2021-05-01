@@ -6,8 +6,8 @@
 </head>
 <body>
 
-    <h1 class="text-center">Data Barang</h1>
-    <p class="text-center">Laporan Data Pengelolaan Barang </p>
+    <h1 class="text-center">Data Barang Masuk</h1>
+    <p class="text-center">Laporan Data Pengelolaan Barang Masuk </p>
     <br/>
 
     <table class="table table-bordered" border="1">

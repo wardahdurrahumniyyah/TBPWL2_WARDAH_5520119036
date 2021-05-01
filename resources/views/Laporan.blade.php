@@ -3,7 +3,7 @@
 @section('title', 'Produk')
 
 @section('content_header')
-    <h1>Laporan Pengelolaan Barang</h1>
+    <h1>Laporan Pengelolaan Barang Masuk</h1>
 @stop
 
 @section('content')
@@ -21,11 +21,11 @@
 <div class="col">
   <div class="card">
     <div class="card-header">
-      <h4 class="card-title">Laporan Pengelolan Barang</h4>
+      <h4 class="card-title">Laporan Pengelolan Barang Masuk</h4>
       <div class="card-tools">
          
           <a href="{{route('admin.PrintPdf')}}" class="btn btn-sm btn-success">
-            Print
+            Print PDF
            </a>   
       
       </div>
