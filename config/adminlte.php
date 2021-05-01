@@ -261,11 +261,25 @@ return [
             'can'         => ['isUser','isAdmin'],
         ],
         [
+            'text'        => 'Transaksi',
+            'url'         => 'transaksi',
+            'icon'        => 'fas fa-fw fa-exchange-alt',
+            'can'         => ['isUser','isAdmin'],
+        ],
+        [
             'text'        => 'Laporan',
-            'url'         => 'admin/Laporan',
             'icon'        => 'fas fa-fw fa-book',
             'can'         => 'isAdmin',
-
+            'submenu'     =>[
+                                [
+                                    'text'        => ' Laporan Barang Masuk',
+                                    'url'         => 'admin/Laporan',
+                                ],
+                                [
+                                    'text'        => 'Laporan Barang Keluar',
+                                    'url'         => 'admin/laporan/keluar',
+                                ],
+                            ]
         ],
 
     ],

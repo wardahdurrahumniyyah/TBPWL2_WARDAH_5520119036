@@ -58,14 +58,7 @@
                 <td>{{$item->Merek->merk}}</td>
                 <td>{{$item->harga}}</td>
                 <td>{{$item->stok}}</td>
-                <td>{{$item->foto}}</td>
-                <!-- <td>
-                     @if($item->foto !== null)
-                        <img src="{{ asset('storage/foto_produk/'.$item->foto) }}" width="100px"/>
-                         @else
-                          [Gambar tidak tersedia]
-                         @endif
-               </td> -->
+                <td> <img src="{{asset('produk_barang/'.$item->foto)}}" width="100px"> </td>
               </tr>
               @endforeach
 
