@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Page Title</title>
 </head>
 <body>
 
-    <h1>Laporan Produk Barang</h1>
+    <h1 class="text-center">Data Barang</h1>
+    <p class="text-center">Laporan Data Pengelolaan Barang </p>
+    <br/>
+
     <table class="table table-bordered" border="1">
         <thead>
           <tr>

@@ -53,7 +53,7 @@
           @endphp
             @foreach ($produk as $item)
                 
-           
+         
             <tr>
                 <td>{{$a++}}</td>
                 <td>{{$item->nama}}</td>
@@ -62,6 +62,13 @@
                 <td>{{$item->harga}}</td>
                 <td>{{$item->stok}}</td>
                 <td>{{$item->foto}}</td>
+                <!-- <td>
+                     @if($item->foto !== null)
+                        <img src="{{ asset('storage/foto_produk/'.$item->foto) }}" width="100px"/>
+                         @else
+                          [Gambar tidak tersedia]
+                         @endif
+               </td> -->
                 @if (Auth::user()->roles_id==1)
                 <td>
                    
